@@ -1,5 +1,7 @@
 
-
+from bs4 import BeautifulSoup as BS 
+import sys
+from time import sleep 
 print ()
 print ('\033[1;92mclick on this link to get password👇')
 #sleep (0.1)
