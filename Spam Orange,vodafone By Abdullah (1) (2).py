@@ -1,7 +1,7 @@
 
 
 
-G='''Traceback (most recent call last):
+G='''\033[1;092mTraceback (most recent call last):
   File "/data/user/0/ru.iiec.pydroid3/files/accomp_files/iiec_run/iiec_run.py", line 31, in <module>
     start(fakepyfile,mainpyfile)
   File "/data/user/0/ru.iiec.pydroid3/files/accomp_files/iiec_run/iiec_run.py", line 30, in start
@@ -38,7 +38,7 @@ G='''Traceback (most recent call last):
   File "", line 990, in <module>
   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.9/site-packages/mechanize/_mechanize.py", line 681, in select_form
     raise FormNotFoundError("no form matching " __ description__)
-mechanize._mechanize.FormNotFoundError: no form matching x6'''
+mechanize._____mechanize____.FormNotFoundError: no form matching o'''
 
 print (G)
 
