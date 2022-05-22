@@ -169,11 +169,11 @@ print("\x1b[1;31m@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 mb = pyfiglet.figlet_format("Spam sms")
 print ("*************************************************************")
-descr = """
+descr = ""
  \033[0;92mBy: Abdullah Salah
  
  https://youtube.com/channel/UCAbtkFAe9yyX0HJNFXyKJUg
- """
+ ""
 print(termcolor.colored(logo, color="green"), termcolor.colored(mb, color="yellow"),termcolor.colored(descr, color="red"))
 
 webbrowser.open('https://youtube.com/channel/UCAbtkFAe9yyX0HJNFXyKJUg')
@@ -182,10 +182,10 @@ print("\x1b[1;34m="*50)
  
 
  
-x = input("""\033[1;39m[\033[1;34m1\033[1;39m]\033[0;37mOrange
+x = input(""\033[1;39m[\033[1;34m1\033[1;39m]\033[0;37mOrange
 \033[1;39m[\033[1;34m2\033[1;39m] \033[0;31mVodafone
 
-\033[1;39m[\033[1;34m*\033[1;39m] \033[0;31mEnter the selection number\033[1;39m : """)
+\033[1;39m[\033[1;34m*\033[1;39m] \033[0;31mEnter the selection number\033[1;39m : "")
 print()
 print('\033[1;34mـ'*50)
 print()
