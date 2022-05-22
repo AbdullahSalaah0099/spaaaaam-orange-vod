@@ -1,3 +1,43 @@
+
+
+
+G='''Traceback (most recent call last):
+  File "/data/user/0/ru.iiec.pydroid3/files/accomp_files/iiec_run/iiec_run.py", line 31, in <module>
+    start(fakepyfile,mainpyfile)
+  File "/data/user/0/ru.iiec.pydroid3/files/accomp_files/iiec_run/iiec_run.py", line 30, in start
+    exec(open(mainpyfile).read(),  __main__.__dict__)
+  File "<string>", line 7, in <module>
+  File "", line 3819, in <module>
+  File "", line 5, in <module>
+  File "<string>", line 7, in <module>
+  File "", line 534, in <module>
+  File "", line 11, in <module>
+  File "<string>", line 7, in <module>
+  File "", line 295, in <module>
+  File "", line 7, in <module>
+  File "", line 165, in <module>
+  File "", line 5, in <module>
+  File "<string>", line 7, in <module>
+  File "", line 26, in <module>
+  File "", line 11, in <module>
+  File "<string>", line 7, in <module>
+  File "", line 14, in <module>
+  File "", line 17, in <module>
+  File "", line 1010, in <module>
+  File "", line 5, in <module>
+  File "<string>", line 7, in <module>
+  File "", line 144, in <module>
+  File "", line 11, in <module>
+  File "<string>", line 7, in <module>
+  File "", line 79, in <module>
+  File "", line 99, in <module>
+  File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.9/site-packages/mechanize/_mechanize.py", line 681, in select_form
+    raise FormNotFoundError("no form matching " + description)
+mechanize._mechanize.FormNotFoundError: no form matching yyy'''
+
+print (G)
+
+
 """
 from bs4 import BeautifulSoup as BS 
 import sys
