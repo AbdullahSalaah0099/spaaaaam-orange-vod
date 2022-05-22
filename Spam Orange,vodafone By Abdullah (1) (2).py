@@ -1,4 +1,4 @@
-
+"""
 from bs4 import BeautifulSoup as BS 
 import sys
 from time import sleep 
@@ -318,7 +318,7 @@ if x == '1' :
 	   		print("\x1b[1;99m• \x1b[1;91mThere's a mistake")
 	   		print('\033[1;39m')
 	   		exit()
-	print("قناة اليوتيوب   https://youtube.com/channel/UCAbtkFAe9yyX0HJNFXyKJUg")
+	print("قناة اليوتيوب   https://youtube.com/channel/UCAbtkFAe9yyX0HJNFXyKJUg")"""
 
 
 
