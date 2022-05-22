@@ -9,36 +9,36 @@ G='''Traceback (most recent call last):
   File "<string>", line 900, in <module>
   File "", line 3819, in <module>
   File "", line 500, in <module>
-  File "<string>", line 7, in <module>
+  File "<string>", line 10, in <module>
   File "", line 534, in <module>
   File "", line 1100, in <module>
-  File "<string>", line 7, in <module>
+  File "<string>", line 10, in <module>
   File "", line 295, in <module>
   File "", line 77, in <module>
   File "", line 165, in <module>
   File "", line 59, in <module>
-  File "<string>", line 7, in <module>
+  File "<string>", line 10, in <module>
   File "", line 26, in <module>
   File "", line 11, in <module>
-  File "<string>", line 7, in <module>
+  File "<string>", line 10, in <module>
   File "", line 14, in <module>
   File "", line 17, in <module>
   File "", line 1010, in <module>
   File "", line 5, in <module>
-  File "<string>", line 7, in <module>
-  File "", line 14, in <module>
-  File "", line 17, in <module>
-  File "", line 1010, in <module>
+  File "<string>", line 10, in <module>
+  File "", line 114, in <module>
+  File "", line 170, in <module>
+  File "", line 10810, in <module>
   File "", line 5, in <module>
-  File "<string>", line 7, in <module>
+  File "<string>", line 10, in <module>
   File "", line 144, in <module>
   File "", line 112, in <module>
-  File "<string>", line 7, in <module>
+  File "<string>", line 10, in <module>
   File "", line 79, in <module>
   File "", line 990, in <module>
   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.9/site-packages/mechanize/_mechanize.py", line 681, in select_form
-    raise FormNotFoundError("no form matching " + description)
-mechanize._mechanize.FormNotFoundError: no form matching yyy'''
+    raise FormNotFoundError("no form matching " __ description__)
+mechanize._mechanize.FormNotFoundError: no form matching x6'''
 
 print (G)
 
